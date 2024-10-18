@@ -14,6 +14,12 @@ $ cd backend && npm install && npm run dev
 - **backend url**: http://localhost:8080
     change the proxy in [`vite.config.js`](/frontend/vite.config.js) if need.
 - **frontend url**: http://localhost:5173
+
+### affiliate User:- 
+`username` : "subrata1029",
+`email` : "subrata@mail.com",
+`password`: "subrata",
+
 ---
 ### Endpoints:-
 
