@@ -76,7 +76,7 @@ const Product = () => {
             {userData?.data?.role === "user" ? "Buy Now" : "Create Link"}
           </button>
         )}
-        <p className="text-sm text-gray-600">* 10% commission over the price</p>
+        {userData.data?.role !== "user" && <p className="text-sm text-gray-600">* 10% commission over the price</p>}
       </div>
 
       {showPopUp && (

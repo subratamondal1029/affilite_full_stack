@@ -16,7 +16,7 @@ const Reffer = () => {
     if(userData?.data?.role === "affiliate") {
       navigate
     }else{
-      fetch(`/api/isUserLogedin?refferCode=${encodeURIComponent(refferCode)}`)
+      fetch(`/api/refferRedirect?refferCode=${encodeURIComponent(refferCode)}`)
       .then(res => res.json())
       .then(res =>{
         if (res.isLogedin) {
